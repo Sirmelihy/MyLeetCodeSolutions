@@ -1,2 +1,2 @@
 # MyLeetCodeSolutions
-List Of My LeetCode Solutions
+List of my Leetcode solutions.
