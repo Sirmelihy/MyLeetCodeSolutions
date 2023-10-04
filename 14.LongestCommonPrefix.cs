@@ -1,9 +1,6 @@
-using System.Globalization;
 
 class Solution
 {
-
-
     public static string LongestCommonPrefix(string[] strs) {
         
         string starter = strs[0];
@@ -22,23 +19,11 @@ class Solution
                     break;
                 }
 
-                
-
-
             }
             starter = prefix;
             prefix = "";
         }
 
         return starter;
-
-    }
-
-    static void Main(string[] args)
-    {
-
-        string[] asd = {"çakır" , "çakı" , "çak" , "çanta" };    //Test input
-
-        Console.WriteLine(LongestCommonPrefix(asd));             //Output should be "ça"
     }
 }
