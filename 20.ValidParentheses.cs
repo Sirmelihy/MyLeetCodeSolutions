@@ -1,7 +1,3 @@
-using System.ComponentModel.DataAnnotations;
-using System.Globalization;
-using System.IO.Compression;
-
 class Solution
 {
 
@@ -38,11 +34,5 @@ class Solution
         }
 
         return myStack.Count == 0;
-    }
-   
-    static void Main(string[] args)
-    {
-        string testinput = "(])";
-        Console.WriteLine(IsValid(testinput));
     }
 }
